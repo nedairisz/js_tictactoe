@@ -31,4 +31,14 @@ export function tesztAtlohoz() {
           "A várt eredmény nem stimmel!"
         );
       }
+      {
+        let lista = ["O", "O", "O", "O", "O", "O", "O", "O", "O"];
+        let vart = "OOO@OOO"; 
+        console.assert(
+          vart === atlo_ell(3, lista),
+          "%o",
+          `várt: ${vart}, lista: ${lista}`,
+          "A várt eredmény nem stimmel!"
+        );
+      }
   }
