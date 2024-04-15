@@ -40,5 +40,5 @@ export function tesztAtlohoz() {
           `várt: ${vart}, lista: ${lista}`,
           "A várt eredmény nem stimmel!"
         );
-      }
+      }e 
   }
